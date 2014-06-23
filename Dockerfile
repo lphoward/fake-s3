@@ -9,5 +9,5 @@ RUN gem install rdoc fakes3
 
 # run fake-s3
 RUN mkdir -p /fakes3_root
-CMD ["/usr/local/bin/fakes3", "-r",  "/fakes3_root", "-p",  "4567"]
-EXPOSE 4567
+CMD ["/usr/local/bin/fakes3", "-r",  "/fakes3_root", "-p",  "4569"]
+EXPOSE 4569
