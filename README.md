@@ -9,7 +9,7 @@ Deploys [fake-s3](https://github.com/jubos/fake-s3) in a Docker container.
 
 To create a deployment:
 
-        docker run --name my_s3 -d howardlp/fake-s3
+        docker run --name my_s3 -d lphoward/fake-s3
 
 Service exposed on port 4567.  Credentials on connection requests are ignored.
 See [fake-s3](https://github.com/jubos/fake-s3) README for details/limitations.
