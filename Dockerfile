@@ -2,7 +2,7 @@ FROM ubuntu:12.04
 MAINTAINER Larry Howard <larry.howard@vanderbilt.edu>
 
 # install Ruby
-RUN apt-get update && apt-get install -yqq rubygems
+RUN apt-get update && apt-get install -yqq ruby rubygems-integration
 
 # install fake-s3
 RUN gem install rdoc -v 4.1.1
