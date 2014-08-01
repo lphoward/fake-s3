@@ -5,7 +5,6 @@ MAINTAINER Larry Howard <larry.howard@vanderbilt.edu>
 RUN apt-get update && apt-get install -yqq ruby rubygems-integration
 
 # install fake-s3
-#RUN gem install rdoc -v 4.1.1
 RUN gem install fakes3 -v 0.1.5.2
 
 # run fake-s3
