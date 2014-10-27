@@ -13,3 +13,8 @@ To create a deployment:
 
 Service exposed on port 4569.  Credentials are ignored.
 See [fake-s3](https://github.com/jubos/fake-s3) README for details/limitations.
+
+If you want fake-s3 to be exposed on your Docker host on port 4569, then
+
+        docker run --name my_s3 -p 4569:4569 -d lphoward/fake-s3
+
