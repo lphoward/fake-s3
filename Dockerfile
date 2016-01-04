@@ -7,7 +7,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get install -yqq ruby rubygems-integration
 
 # install fake-s3
-RUN gem install fakes3 -v 0.2.1
+RUN gem install fakes3 -v 0.2.2
 
 # run fake-s3
 RUN mkdir -p /fakes3_root
